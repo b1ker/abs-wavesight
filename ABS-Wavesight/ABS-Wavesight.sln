@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqueElements", "UniqueElements\UniqueElements.csproj", "{1DED7ED3-364D-4DC6-B2CB-93D02DACA0AD}"
+EndProject
+
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DED7ED3-364D-4DC6-B2CB-93D02DACA0AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DED7ED3-364D-4DC6-B2CB-93D02DACA0AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DED7ED3-364D-4DC6-B2CB-93D02DACA0AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DED7ED3-364D-4DC6-B2CB-93D02DACA0AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A66C43D-D5DA-491F-83F6-853462CA6CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A66C43D-D5DA-491F-83F6-853462CA6CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A66C43D-D5DA-491F-83F6-853462CA6CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A66C43D-D5DA-491F-83F6-853462CA6CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
