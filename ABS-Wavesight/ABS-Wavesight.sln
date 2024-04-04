@@ -2,7 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqueElements", "UniqueElements\UniqueElements.csproj", "{1DED7ED3-364D-4DC6-B2CB-93D02DACA0AD}"
 EndProject
-
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilterAnimals", "FilterAnimals\FilterAnimals.csproj", "{7A66C43D-D5DA-491F-83F6-853462CA6CEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
