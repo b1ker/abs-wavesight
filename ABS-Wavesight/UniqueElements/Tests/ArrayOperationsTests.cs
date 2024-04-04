@@ -39,4 +39,24 @@ public class ArrayOperationsTests
 
         Assert.That(result, Is.EqualTo(expectedResult));
     }
+    
+    [Test]
+    public void Test_OriginalArraysNotModified()
+    {
+        // Arrange
+        var firstArrayOriginal = new int[] {1, 2, 3, 4, 5};
+        var secondArrayOriginal = new int[] {4, 5, 6};
+        
+        var firstArray = new int[firstArrayOriginal.Length];
+        firstArrayOriginal.CopyTo(firstArray, 0);
+        var secondArray = new int[secondArrayOriginal.Length];
+        secondArrayOriginal.CopyTo(secondArray, 0);     
+
+        // Act
+        var _ = ArrayOperations.FindElementsUniqueToFirstArray(firstArray, secondArray);
+
+        // Assert
+        Assert.That(firstArray, Is.EqualTo(firstArrayOriginal));
+        Assert.That(secondArray, Is.EqualTo(secondArrayOriginal));
+    }
 }
